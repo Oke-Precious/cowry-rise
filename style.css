@@ -39,7 +39,7 @@
 }
 .formCon form{
     background-color: white;
-    padding: 60px !important;
+    padding: 70px !important;
     border-radius: 10px !important;
     box-shadow: 0 1px 28px rgba(0, 0, 0, 0.068) !important;
 }
@@ -97,4 +97,33 @@
     text-decoration: none;
     font-weight: 600;
     font-size: 12.8px;
+}
+.formCon button{
+    background-color: #056DFF;
+    color: white;
+    font-weight: 600;
+    font-size: 15.2px;
+    border: none !important;
+    padding:10px 20px !important;
+    width: 100%;
+    border-radius: 5px !important;
+}
+.formFooter p{
+    font-size: 12.8px;
+}
+.formFooter p a{
+    color: #056DFF;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+@media (max-width: 1024px) {
+    .loginSec{
+        width: 90% !important;
+    }
+    .jump, .formCon{
+        width: 100% !important;
+    }
+    
 }
