@@ -26,6 +26,75 @@
 .jump h4{
     color:RGBA(10, 46, 101, 0.3);
     font-size: 24.96px;
-    margin: 20px 0 !important;
+    margin: 15px 0 !important;
     font-weight: bold;
+}
+.jump p{
+    font-size: 12.8px;
+}
+.jump p a{
+    color: #056DFF;
+    text-decoration: none;
+    font-weight: 600;
+}
+.formCon form{
+    background-color: white;
+    padding: 60px !important;
+    border-radius: 10px !important;
+    box-shadow: 0 1px 28px rgba(0, 0, 0, 0.068) !important;
+}
+.signWith a{
+    border: 1px solid #E5E5E5;
+    color: black;
+    font-weight: 600;
+    font-size: 15.2px;
+    text-decoration: none;
+    padding:10px 20px !important;
+    width: 100%;
+    border-radius: 5px !important;
+    text-align: center;
+}
+.formCon hr{
+    border: 1px solid #E5E5E5;
+}
+.formCon input{
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+}
+.formCon input:focus{
+    border: 1px solid #056DFF;
+    outline: none !important;
+}
+.emailInputContainer{
+    position: relative !important;
+    margin-bottom: 20px !important;
+}
+.emailInputContainer label{
+    position: absolute !important;
+    top: -10px !important;
+    left: 15px !important;
+    background-color: white !important;
+    padding: 0 5px !important;
+    font-size: 12px !important;
+    color: #056DFF !important;
+    font-weight: 600 !important;
+    pointer-events: none !important;
+    opacity: 0 !important;
+    transition: all 0.1s linear !important;
+}
+.emailInputContainer input:focus ~ label{
+    opacity: 1 !important;
+}
+.emailInputContainer input::placeholder{
+    color: #999 !important;
+    transition: color 0.1s linear !important;
+}
+.emailInputContainer input:focus::placeholder{
+    color: transparent !important;
+}
+.forgetPass{
+    color: #056DFF;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12.8px;
 }
