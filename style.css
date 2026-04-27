@@ -1,5 +1,31 @@
 *{
     padding: 0 !important;
     margin: 0 !important;
-    box-sizing: border-box;
+    box-sizing: border-box !important;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+/* =================LOGIN PAGE ============= */
+.loginBody{
+    background-color: #F4F7FA;
+}
+.loginSec{
+    display: block;
+    margin: 80px auto !important;
+    width: 65% !important;
+}
+.loginLogo img{
+    width: 100%;
+    max-width: 180px; 
+    margin-bottom: 100px !important;
+}
+.jump h3{
+    font-size: 48px;
+    font-weight: bold;
+}
+.jump h4{
+    color:RGBA(10, 46, 101, 0.3);
+    font-size: 24.96px;
+    margin: 20px 0 !important;
+    font-weight: bold;
 }
