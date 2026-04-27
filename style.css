@@ -49,10 +49,29 @@
     font-weight: 600;
     font-size: 15.2px;
     text-decoration: none;
-    padding:10px 20px !important;
+    padding:10px !important;
     width: 100%;
     border-radius: 5px !important;
     text-align: center;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 4px !important;
+}
+.signWith a svg{
+    width: 18px !important;
+    height: 18px !important;
+}
+.signWith a.googleSignIn{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 4px !important;
+}
+.signWith a.googleSignIn svg{
+    width: 18px !important;
+    height: 18px !important;
+    margin-right: 2px !important;
 }
 .formCon hr{
     border: 1px solid #E5E5E5;
@@ -118,12 +137,21 @@
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .loginSec{
         width: 90% !important;
     }
-    .jump, .formCon{
-        width: 100% !important;
+    .formCon form{
+        padding: 30px !important;
+        margin-top: 50px !important;
+    }
+    .loginSec{
+        display: block;
+        margin: 50px auto !important;
+    }
+    .signWith a{
+        display: block !important;
+        margin: 20px 0 !important;
     }
     
 }
