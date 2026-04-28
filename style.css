@@ -135,7 +135,21 @@
     text-decoration: none;
     font-weight: 600;
 }
-
+.rightLogo{
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 20px !important;
+    border: none !important;
+    width: 50px !important;
+    border-radius: 50% !important;
+    overflow: hidden;
+    background-color: #056DFF;
+    height: 50px;
+}
+.rightLogo img{
+    width: 60%;
+    border-radius: 50% !important;
+}
 
 @media (max-width: 768px) {
     .loginSec{
