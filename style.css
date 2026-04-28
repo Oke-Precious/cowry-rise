@@ -266,8 +266,15 @@ body{
     font-weight: 600;
     font-size: 16px;
 }
-.navbar .btn-primary{
+.signupBtn{
     font-weight: 600;
+    font-size: 16px;
+    width: max-content;
+    color: white;
+    background-color: #056DFF;
+    border:none;
+    padding: 10px 25px !important;
+    border-radius: 6px !important;
     box-shadow: 0 4px 12px rgba(5, 109, 255, 0.3) !important;
 }
 
@@ -275,7 +282,22 @@ body{
 
 /* ========SEC1============= */
 .sec1{
-    height: 90vh;
+    height: 78vh;
+    /* background-image: url(./media/ladder.svg); */
+    border: solid red 1px;
+    background-repeat: no-repeat;
+    
+    background-position: bottom left, top right;
+    background-size: cover;
+}
+.sec1 p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #6C82A3;
+    margin: 45px 0 !important;
+}
+.sec2{
+    padding: 50px 200px !important;
 }
 
 
@@ -328,5 +350,9 @@ body{
         display: block  !important;
     }
 
+    .navbar{
+        padding: 20px !important;
+        justify-content: space-between !important;
+    }
 
 }
