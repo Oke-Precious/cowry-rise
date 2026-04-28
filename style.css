@@ -313,18 +313,37 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: transform 0.3s ease-in-out;
+}
+.savingsItem:hover .savings-buttom{
+    transform: translateY(-10px) ;
+}
+.savingsItem:hover a{
+    color: #056DFF !important;
+}
+.savingsItem:hover a .arrowRight{
+    transform: translateX(15px);
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.savingsItem a .arrowRight{
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
 }
 .savingsItem a{
     color: black;
     font-weight: 600;
     font-size: 20px;
     text-decoration: none;
+    transition: transform 0.3s ease-in-out;
 }
 .savings-buttom{
     background-color: white;
     padding: 25px !important;
     border-radius:20px;
     width: 100%;
+    transition: transform 0.2s ease-in-out;
 }
 .savings-buttom button{
     height: 55px;
