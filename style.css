@@ -167,6 +167,17 @@
 .startInvest .formCon{
     width: 60%;
 }
+.formFooter p img{
+    width: 23px;
+}
+.dontwait h5{
+    font-size: 24px;
+    font-weight: 600;
+}
+.dontwait p{
+    font-size: 16px;
+    color: #6C82A3;
+}
 
 
 @media (max-width: 768px) {
