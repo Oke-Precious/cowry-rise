@@ -211,10 +211,17 @@ body{
     border: none !important;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
     background-color: white !important;  
-    width:700px !important;
+    width:max-content !important;
     border-radius: 10px !important;
     padding: 40px  !important;
-    cursor: pointer;
+    pointer-events: auto !important;
+}
+.mydropdownn .dropItem{
+    pointer-events: auto !important;
+}
+.mydropdownn .dropItem li{
+    pointer-events: auto !important;
+    cursor: pointer !important;
 }
 .dropItem img{
     width: 45px;
@@ -239,14 +246,19 @@ body{
 }
 .verticalLine{
     width: 1px;
-    height: 200px;
+    height:auto;
     background-color: #E5E5E5;
 }
 .dropItem a{
     text-decoration: none;
 }
 .navList{
-    
+    color: #6C82A3 !important;
+    font-weight: 500 !important;
+    transition: .5s ease;
+}
+.navList:hover, .navList:focus{
+    color: black !important;
 }
 
 
