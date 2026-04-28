@@ -279,7 +279,6 @@ body{
 }
 
 
-
 /* ========SEC1============= */
 .sec1{
     height: 78vh;
@@ -296,8 +295,55 @@ body{
     color: #6C82A3;
     margin: 45px 0 !important;
 }
+
+
+/* ============SEC2======== */
 .sec2{
     padding: 50px 200px !important;
+}
+.savingsItem{
+    width: 31%;
+    padding: 20px !important;
+    border-radius: 20px !important;
+    height: 520px;
+    background-color: #F5F6FA;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.savingsItem a{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+.savings-buttom{
+    background-color: white;
+    padding: 25px !important;
+    border-radius:20px;
+    width: 100%;
+}
+.savings-buttom button{
+    height: 55px;
+    width: 55px;
+    border: none;
+    border-radius: 50% !important;
+}
+.savings-buttom p{
+    font-size: 14px;
+    color: #6C82A3;
+}
+.savingsimg1{
+    background-image: url(./media/savings1.png);
+}
+.savingsimg2{
+    background-image: url(./media/savings2.png);
+}
+.savingsimg3{
+    background-image: url(./media/savings3.png);
 }
 
 
@@ -353,6 +399,16 @@ body{
     .navbar{
         padding: 20px !important;
         justify-content: space-between !important;
+    }
+    .sec2{
+        padding: 30px !important;
+    }
+    .savingsItem{
+        width: 100%;
+        margin: 30px 0 !important;
+    }
+    .savings-buttom button{
+        display: none;
     }
 
 }
