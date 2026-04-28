@@ -39,7 +39,7 @@
 }
 .formCon form{
     background-color: white;
-    padding: 70px !important;
+    padding:60px 70px !important;
     border-radius: 10px !important;
     box-shadow: 0 1px 28px rgba(0, 0, 0, 0.068) !important;
 }
@@ -151,15 +151,31 @@
     border-radius: 50% !important;
 }
 
+
+
+
+
+/* ================SIGNUP SEC============= */
+.formCon form h2{
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 30px !important;
+}
+.startInvest{
+    gap: 100px;
+}
+.startInvest .formCon{
+    width: 60%;
+}
+
+
 @media (max-width: 768px) {
-    .loginSec{
-        width: 90% !important;
-    }
     .formCon form{
         padding: 30px !important;
         margin-top: 50px !important;
     }
     .loginSec{
+        width: 90% !important;
         display: block;
         margin: 50px auto !important;
     }
@@ -167,5 +183,7 @@
         display: block !important;
         margin: 20px 0 !important;
     }
-    
+    .rightLogo{
+        display: none !important;
+    }
 }
