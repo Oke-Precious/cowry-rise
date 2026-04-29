@@ -364,15 +364,43 @@ body{
 .savingsimg3{
     background-image: url(./media/savings3.png);
 }
+.phoneDiv{
+    background-color: #F5F6FA;
+    height: 650px;
+    width: 38%;
+    border-radius: 20px;
+    background-image: url(./media/pnone.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center 150%;
+    position: relative;
+    overflow: hidden;
+}
+.rollCoin{
+    width: 280px;
+    position: absolute;
+    bottom: -120px;
+    left: -120px;
+    transform: scaleX(-1);
+    animation: roll 20s linear infinite;
+}
+@keyframes roll {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.growWith span{
+    color: #6C82A3;
+}
 
 
 
 
 
-
-
-
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .formCon form{
         padding: 30px !important;
         margin-top: 50px !important;
@@ -428,6 +456,10 @@ body{
     }
     .savings-buttom button{
         display: none;
+    }
+
+    .phoneDiv{
+        width: 100%;
     }
 
 }
