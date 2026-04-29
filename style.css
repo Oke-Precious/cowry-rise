@@ -815,30 +815,12 @@ body{
     margin-left: 3px !important;
 }
 
-.video-card .poster-image {
+.video-card a {
+    text-decoration: none !important;
     display: block !important;
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
     width: 100% !important;
     height: 100% !important;
-    object-fit: cover !important;
-    border-radius: 30px !important;
-    transition: opacity 0.3s ease !important;
-    z-index: 2 !important;
-}
-
-.video-card:hover .poster-image {
-    opacity: 0 !important;
-}
-
-.video-card .video-element {
-    display: none !important;
-}
-
-.video-card:hover .video-element {
-    display: block !important;
-    z-index: 3 !important;
+    position: relative !important;
 }
 
 .testimonial-overlay {
