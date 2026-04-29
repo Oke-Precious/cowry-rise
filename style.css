@@ -539,23 +539,27 @@ body{
 }
 .calculatorBox{
     display: flex;
+    height: 260px;
     flex-direction: column;
     justify-content: space-between;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.062);
     padding: 30px !important;
     border-radius: 12px !important;
+}
+.timeLabel{
+    color:#fafbfca9 !important;
+    font-weight: 500;
+    width: max-content;
 }
 .calcText{
     color: rgba(255, 255, 255, 0.95);
     font-size: 14px;
 }
-.calcText span{
-    width: max-content;
-}
+
 .timeSelect{
     background-color: transparent;
     border: none;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #fafbfca9 ;
     color: white;
     cursor: pointer;
     font-size: 16px;
@@ -602,10 +606,10 @@ body{
 }
 .currencySelect{
     background-color: transparent;
-    border: 1px solid #bbd4fa !important;
+    border: 1px solid #fafbfca9  !important;
     color: white;
     padding:15px !important;
-    border-radius: 8px !important;
+    border-radius: 10px !important;
     cursor: pointer;
     font-weight: 500;
     font-size: 15px;
@@ -626,6 +630,7 @@ body{
 
 
 .resultCard{
+    height: 260px;
     display: flex !important;
     justify-content: space-between;
     background: #D5F4E6;
