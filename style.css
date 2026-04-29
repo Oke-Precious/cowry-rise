@@ -507,6 +507,211 @@ body{
     font-size: 48px;
 }
 
+/* ========SEC4======== */
+.sec4{
+    background: linear-gradient(135deg, #056DFF 0%, #0052CC 100%);
+    padding: 100px 200px !important;
+}
+
+.sec4Left{
+    color: white;
+}
+.sec4Title span{
+    color: #bbd4fa;
+}
+.sec4Highlight{
+    display: block;
+}
+.calculatorBox{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px !important;
+    border-radius: 12px !important;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 30px !important;
+}
+.calcText{
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 16px;
+    margin-bottom: 20px !important;
+    line-height: 1.6;
+}
+.timeSelect{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    padding: 4px 8px !important;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    appearance: none;
+    margin: 0 5px !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='white' d='M1 1l5 5 5-5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 20px !important;
+}
+.timeSelect option{
+    background-color: #0052CC;
+    color: white;
+}
+.amountBox{
+    display: flex !important;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 20px !important;
+}
+.amountField{
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 10px 15px !important;
+    border-radius: 8px !important;
+    width: 180px;
+    outline: none;
+}
+.amountField::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+.amountField::-webkit-outer-spin-button,
+.amountField::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.amountField[type=number]{
+    -moz-appearance: textfield;
+}
+.currencySelect{
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 10px 15px !important;
+    border-radius: 8px !important;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+    outline: none;
+}
+.currencySelect option{
+    background-color: #0052CC;
+    color: white;
+}
+.currencySelect:hover{
+    background-color: rgba(255, 255, 255, 0.25);
+}
+.disclaimerText{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.5;
+}
+
+.sec4Right{
+    color: white;
+}
+.resultCard{
+    background: #D5F4E6;
+    border-radius: 16px !important;
+    padding: 40px !important;
+    margin-bottom: 30px !important;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+.resultHeader{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px !important;
+    font-size: 12px;
+    color: #0BA388;
+    font-weight: 600;
+}
+.resultLabel{
+    flex: 1;
+}
+.sparkle{
+    font-size: 24px;
+    margin-left: 10px !important;
+}
+.resultAmount{
+    display: flex !important;
+    align-items: baseline;
+    gap: 5px;
+    margin-bottom: 5px !important;
+}
+.currency{
+    color: #1ABC9C;
+    font-size: 32px;
+    font-weight: 700;
+}
+.mainAmount{
+    font-size: 56px;
+    font-weight: 700;
+    color: #1ABC9C;
+}
+.resultSubtext{
+    color: #0BA388;
+    font-size: 12px;
+    margin-bottom: 30px !important;
+    font-weight: 500;
+}
+.vs-section{
+    border-top: 1px solid rgba(26, 188, 156, 0.2);
+    padding-top: 20px !important;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+.vsAmount{
+    display: flex !important;
+    align-items: baseline;
+    gap: 3px;
+}
+.subAmount{
+    font-size: 36px;
+    font-weight: 700;
+    color: #1ABC9C;
+}
+.vsText{
+    color: #0BA388;
+    font-size: 13px;
+}
+
+.ctaSection{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px !important;
+    border-radius: 12px !important;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.ctaText{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px !important;
+    line-height: 1.4;
+}
+.ctaSubtext{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 20px !important;
+    line-height: 1.6;
+}
+.ctaButton{
+    background-color: white;
+    color: #056DFF;
+    border: none !important;
+    padding: 12px 28px !important;
+    border-radius: 8px !important;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.ctaButton:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.25);
+}
+
 
 
 
