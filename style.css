@@ -1085,6 +1085,138 @@ body{
     text-decoration: underline;
 }
 
+/* ========SEC6-FOOTER2======== */
+.sec6-footer2 {
+    background-color: #FFFFFF;
+    padding: 0 !important;
+}
+
+/* Row 1: Social Icons */
+.social-icons-row {
+    border-top: 1px solid #E5E7EB;
+    padding: 24px 0 !important;
+}
+
+.social-icon {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 20px;
+    height: 20px;
+    color: #4B6584;
+    text-decoration: none;
+    transition: color 0.2s ease !important;
+}
+
+.social-icon:hover {
+    color: #1A56DB;
+}
+
+.social-icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* Row 2: Address + SEC Badge */
+.address-sec-row {
+    border-top: 1px solid #E5E7EB;
+    padding: 24px 0 !important;
+}
+
+.address-section {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.address-text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    color: #374151;
+    margin: 0 !important;
+    line-height: 1.6;
+}
+
+.ng-label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #111827;
+    margin-right: 8px !important;
+    text-transform: uppercase;
+}
+
+.sec-badge-section {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+}
+
+.sec-badge {
+    display: flex !important;
+    align-items: center !important;
+    gap: 12px !important;
+    padding: 10px 16px !important;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+}
+
+.sec-logo {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.sec-badge-text {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.sec-badge-text small {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    color: #6B7280;
+    line-height: 1.2;
+}
+
+.sec-badge-text strong {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #111827;
+    line-height: 1.2;
+}
+
+/* Row 3: Legal Disclaimer */
+.legal-disclaimer-row {
+    border-top: 1px solid #E5E7EB;
+    padding: 24px 0 !important;
+}
+
+.legal-text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12.5px;
+    color: #6B7280;
+    line-height: 1.75;
+    margin-bottom: 16px !important;
+}
+
+.legal-text:last-child {
+    margin-bottom: 0 !important;
+}
+
+.legal-text a {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12.5px;
+    color: #1A56DB;
+    text-decoration: none;
+    transition: text-decoration 0.2s ease !important;
+}
+
+.legal-text a:hover {
+    text-decoration: underline;
+}
+
 
 @media (max-width: 1024px) {
     .formCon form{
@@ -1303,6 +1435,69 @@ body{
 
     .footer-column a {
         font-size: 13px;
+    }
+
+    /* SEC6-FOOTER2 RESPONSIVE */
+    .social-icons-row {
+        padding: 16px 0 !important;
+    }
+
+    .social-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .social-icon svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .address-sec-row {
+        padding: 16px 0 !important;
+    }
+
+    .address-text {
+        font-size: 13px;
+    }
+
+    .ng-label {
+        font-size: 10px;
+    }
+
+    .sec-badge-section {
+        justify-content: flex-start !important;
+        margin-top: 16px !important;
+    }
+
+    .sec-badge {
+        padding: 8px 12px !important;
+    }
+
+    .sec-logo {
+        width: 36px;
+        height: 36px;
+    }
+
+    .sec-badge-text small {
+        font-size: 10px;
+    }
+
+    .sec-badge-text strong {
+        font-size: 13px;
+    }
+
+    .legal-disclaimer-row {
+        padding: 16px 0 !important;
+    }
+
+    .legal-text {
+        font-size: 12px;
+        line-height: 1.7;
+        margin-bottom: 12px !important;
+    }
+
+    .legal-text a {
+        font-size: 12px;
     }
 
 }
