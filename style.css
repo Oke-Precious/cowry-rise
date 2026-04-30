@@ -1103,7 +1103,6 @@ body{
     justify-content: center !important;
     width: 20px;
     height: 20px;
-    color: #4B6584;
     text-decoration: none;
     transition: color 0.2s ease !important;
 }
@@ -1112,9 +1111,14 @@ body{
     color: #1A56DB;
 }
 
-.social-icon svg {
-    width: 20px;
-    height: 20px;
+.social-icon img {
+    width: 14px;
+    filter: invert(52%) sepia(17%) saturate(400%) hue-rotate(184deg) brightness(105%) saturate(108%);
+    transition: filter 0.2s ease !important;
+}
+
+.social-icon:hover img {
+    filter: invert(33%) sepia(72%) saturate(411%) hue-rotate(185deg) brightness(100%) saturate(102%);
 }
 
 /* Row 2: Address + SEC Badge */
@@ -1131,15 +1135,16 @@ body{
 .address-text {
     font-family: 'DM Sans', sans-serif;
     font-size: 14px;
-    color: #374151;
+    color: #899BB5;
     margin: 0 !important;
+    font-weight: 500;
     line-height: 1.6;
 }
 
 .ng-label {
     font-family: 'DM Sans', sans-serif;
-    font-size: 11px;
-    font-weight: 700;
+    font-size: 9px;
+    font-weight: normal !important;
     letter-spacing: 0.08em;
     color: #111827;
     margin-right: 8px !important;
@@ -1169,19 +1174,20 @@ body{
 
 .sec-badge-text {
     display: flex !important;
+    align-items: start;
     flex-direction: column !important;
 }
 
 .sec-badge-text small {
     font-family: 'DM Sans', sans-serif;
-    font-size: 11px;
-    color: #6B7280;
+    font-size: 12px;
+    font-weight: 500;
+    color: #8293aa;
     line-height: 1.2;
 }
 
 .sec-badge-text strong {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     color: #111827;
     line-height: 1.2;
@@ -1196,8 +1202,9 @@ body{
 .legal-text {
     font-family: 'DM Sans', sans-serif;
     font-size: 12.5px;
-    color: #6B7280;
+    color: #899BB5;
     line-height: 1.75;
+    font-weight: 500 !important;
     margin-bottom: 16px !important;
 }
 
@@ -1208,7 +1215,7 @@ body{
 .legal-text a {
     font-family: 'DM Sans', sans-serif;
     font-size: 12.5px;
-    color: #1A56DB;
+    color:#056DFF;
     text-decoration: none;
     transition: text-decoration 0.2s ease !important;
 }
@@ -1447,11 +1454,6 @@ body{
         height: 18px;
     }
 
-    .social-icon svg {
-        width: 18px;
-        height: 18px;
-    }
-
     .address-sec-row {
         padding: 16px 0 !important;
     }
@@ -1461,7 +1463,7 @@ body{
     }
 
     .ng-label {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .sec-badge-section {
