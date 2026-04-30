@@ -912,12 +912,12 @@ body{
 
 /* ========SEC6 FOOTER======== */
 .sec6 {
-    padding: 0 !important;
+    padding: 0 200px !important;
 }
 
 /* Part 1: CTA Header */
 .sec6-cta {
-    padding: 80px 60px !important;
+    padding: 80px 0 !important;
     text-align: center;
     margin-bottom: 0 !important;
 }
@@ -943,12 +943,10 @@ body{
 /* Part 2: Footer Body */
 .sec6-footer {
     background-color: #FFFFFF;
-    padding: 60px !important;
+    padding: 60px 0 !important;
     display: flex !important;
     gap: 60px !important;
     justify-content: space-between !important;
-    max-width: 1400px !important;
-    margin: 0 auto !important;
 }
 
 /* Left Half */
@@ -1045,6 +1043,7 @@ body{
     display: grid !important;
     grid-template-columns: repeat(4, 1fr) !important;
     gap: 40px !important;
+    
 }
 
 .footer-column {
@@ -1253,8 +1252,12 @@ body{
     }
 
     /* SEC6 RESPONSIVE */
+    .sec6 {
+        padding: 0 30px !important;
+    }
+
     .sec6-cta {
-        padding: 40px 30px !important;
+        padding: 40px 0 !important;
     }
 
     .sec6-cta-line1 {
@@ -1267,7 +1270,7 @@ body{
 
     .sec6-footer {
         flex-direction: column !important;
-        padding: 40px 20px !important;
+        padding: 40px 0 !important;
         gap: 30px !important;
     }
 
