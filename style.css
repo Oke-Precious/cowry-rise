@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..146,100..1000;1,9..146,100..1000&display=swap');
+
 *{
     padding: 0 !important;
     margin: 0 !important;
@@ -607,6 +609,7 @@ body{
     margin: 0;
 }
 .amountField[type=number]{
+    appearance: textfield;
     -moz-appearance: textfield;
 }
 .currencySelect{
@@ -907,6 +910,182 @@ body{
     display: block !important;
 }
 
+/* ========SEC6 FOOTER======== */
+.sec6 {
+    padding: 0 !important;
+}
+
+/* Part 1: CTA Header */
+.sec6-cta {
+    padding: 80px 60px !important;
+    text-align: center;
+    margin-bottom: 0 !important;
+}
+
+.sec6-cta-line1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 500 !important;
+    color: #6C82A3;
+    margin-bottom: 16px !important;
+    line-height: 1.4;
+}
+
+.sec6-cta-line2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 60px;
+    color: #1A56DB;
+    margin: 0 !important;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+/* Part 2: Footer Body */
+.sec6-footer {
+    background-color: #FFFFFF;
+    padding: 60px !important;
+    display: flex !important;
+    gap: 60px !important;
+    justify-content: space-between !important;
+    max-width: 1400px !important;
+    margin: 0 auto !important;
+}
+
+/* Left Half */
+.footer-left {
+    flex: 0 0 35%;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+}
+
+.footer-trust {
+    margin-bottom: 40px !important;
+}
+
+.stars {
+    font-size: 18px;
+    color: #F59E0B;
+    margin-bottom: 12px !important;
+    letter-spacing: 4px;
+}
+
+.trust-text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6B7280;
+    margin: 0 !important;
+    line-height: 1.6;
+}
+
+/* App Store Buttons */
+.app-buttons {
+    display: flex !important;
+    gap: 20px !important;
+    flex-wrap: wrap !important;
+}
+
+.app-btn {
+    display: flex !important;
+    align-items: center !important;
+    gap: 12px !important;
+    padding: 14px 20px !important;
+    background-color: #FFFFFF;
+    border: 1px solid #D1D5DB !important;
+    border-radius: 8px !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.app-btn:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+    border-color: #111827 !important;
+}
+
+.btn-icon {
+    width: 24px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.btn-text {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    text-align: left;
+}
+
+.btn-text small {
+    font-size: 11px;
+    color: #6B7280;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.btn-text strong {
+    font-size: 14px;
+    color: #111827;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+/* Divider */
+.footer-divider {
+    width: 1px;
+    background-color: #E5E7EB;
+    margin: 0 30px !important;
+}
+
+/* Right Half */
+.footer-right {
+    flex: 1;
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 40px !important;
+}
+
+.footer-column {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.footer-header {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 20px !important;
+    line-height: 1.4;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.footer-column li {
+    margin-bottom: 12px !important;
+    line-height: 1.2;
+}
+
+.footer-column a {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #6B7280;
+    text-decoration: none;
+    transition: all 0.2s ease !important;
+}
+
+.footer-column a:hover {
+    color: #1A56DB;
+    text-decoration: underline;
+}
+
 
 @media (max-width: 1024px) {
     .formCon form{
@@ -996,7 +1175,6 @@ body{
         margin: 30px 0 !important;
     }
     .sec4Content{
-        /* grid-template-columns: 1fr !important; */
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
     }
     .calculatorBox{
@@ -1074,6 +1252,55 @@ body{
         transform: none !important;
     }
 
+    /* SEC6 RESPONSIVE */
+    .sec6-cta {
+        padding: 40px 30px !important;
+    }
 
+    .sec6-cta-line1 {
+        font-size: 20px;
+    }
+
+    .sec6-cta-line2 {
+        font-size: 32px;
+    }
+
+    .sec6-footer {
+        flex-direction: column !important;
+        padding: 40px 20px !important;
+        gap: 30px !important;
+    }
+
+    .footer-left {
+        flex: 1 1 auto;
+        border-bottom: 1px solid #E5E7EB;
+        padding-bottom: 40px !important;
+    }
+
+    .footer-divider {
+        display: none !important;
+    }
+
+    .footer-right {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 30px !important;
+    }
+
+    .app-buttons {
+        width: 100%;
+    }
+
+    .app-btn {
+        flex: 1 1 calc(50% - 10px) !important;
+    }
+
+    .footer-header {
+        font-size: 15px;
+    }
+
+    .footer-column a {
+        font-size: 13px;
+    }
 
 }
+
