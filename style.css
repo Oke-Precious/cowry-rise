@@ -913,6 +913,10 @@ body{
 /* ========SEC6 FOOTER======== */
 .sec6 {
     padding: 0 200px !important;
+    background-image:url(./media/footer-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat
+
 }
 
 /* Part 1: CTA Header */
@@ -942,7 +946,6 @@ body{
 
 /* Part 2: Footer Body */
 .sec6-footer {
-    background-color: #FFFFFF;
     padding: 60px 0 !important;
     display: flex !important;
     gap: 60px !important;
@@ -1087,7 +1090,6 @@ body{
 
 /* ========SEC6-FOOTER2======== */
 .sec6-footer2 {
-    background-color: #FFFFFF;
     padding: 0 !important;
 }
 
