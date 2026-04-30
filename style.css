@@ -285,15 +285,14 @@ body{
 /* ========SEC1============= */
 .sec1{
     height: 78vh;
-    /* background-image: url(./media/ladder.svg); */
-    border: solid red 1px;
+    background-image:url(./media/bg-lines.svg);
     background-repeat: no-repeat;
-    
-    background-position: bottom left, top right;
     background-size: cover;
 }
 .sec1 p{
     font-size: 20px;
+    background: white;
+    padding: 10px !important;
     font-weight: 500;
     color: #6C82A3;
     margin: 45px 0 !important;
