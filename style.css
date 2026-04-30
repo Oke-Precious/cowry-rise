@@ -515,6 +515,9 @@ body{
 }
 
 .sec4Title{
+    color: white !important;
+}
+.sec4Title strong{
     color: white;
 }
 .sec4Title span{
@@ -551,7 +554,7 @@ body{
 .timeLabel{
     color:#fafbfca9 !important;
     font-weight: 500;
-    width: max-content;
+    width: max-content !important;
 }
 .calcText{
     color: rgba(255, 255, 255, 0.95);
@@ -1003,6 +1006,8 @@ body{
     }
     .resultCard{
         width:100;
+        flex-direction: column;
+        padding: 20px !important;
     }
     .blueText{
         font-size: 32px !important;
@@ -1012,6 +1017,14 @@ body{
     }
      .timeSelect{
         font-size: 12px !important;
+    }
+    .linebetween{
+        display: none;
+    }
+    .linebottom{
+        display: block !important;
+        width: 100% !important;
+        border-color: #52b36ab2 !important;
     }
      .amountField{
         font-size: 24px !important;
@@ -1028,6 +1041,7 @@ body{
     .testimonials-container{
         display: flex !important;
         gap: 20px !important;
+        margin: 50px 0 !important;
         overflow-x: auto !important;
         overflow-y: hidden !important;
         -webkit-overflow-scrolling: touch !important;
