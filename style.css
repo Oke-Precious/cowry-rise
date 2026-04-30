@@ -638,6 +638,7 @@ body{
 
 
 .resultCard{
+    position: relative ;
     height: 260px;
     display: flex !important;
     justify-content: space-between;
@@ -645,6 +646,22 @@ body{
     border-radius: 16px !important;
     padding: 40px !important;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+.greenroll{
+    position: absolute !important;
+    top: -15px !important;
+    right: -15px !important;
+    width: 40px;
+    animation: greenroll 20s linear infinite;
+    filter: invert(48%) sepia(100%) saturate(2000%) hue-rotate(90deg) brightness(150%);
+}
+@keyframes greenroll {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
 .resultHeader{
     display: flex !important;
