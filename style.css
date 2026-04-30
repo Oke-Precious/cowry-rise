@@ -752,16 +752,17 @@ body{
 
 .testimonials-container {
     display: flex !important;
-    justify-content: flex-start !important;
+    margin: 150px 0 !important;
+    justify-content: center !important;
     align-items: flex-start !important;
     flex-wrap: nowrap !important;
 }
 
 .testimonial-card {
     position: relative !important;
-    min-width: 320px !important;
-    height: 350px !important;
-    border-radius: 20px !important;
+    min-width: 330px !important;
+    height: 380px !important;
+    border-radius: 30px !important;
     overflow: hidden !important;
     flex-shrink: 0 !important;
     background-color: #EDEDF2;
@@ -779,31 +780,31 @@ body{
 }
 
 .testimonial-card:nth-child(1):hover {
-    transform: scale(1.08) translateY(-20px) !important;
+    transform: translateY(-20px) !important;
 }
 
 .testimonial-card:nth-child(2) {
-    transform: translateY(40px) !important;
+    transform: translateY(40px) translateX(-20px) !important;
 }
 
 .testimonial-card:nth-child(2):hover {
-    transform: scale(1.08) translateY(20px) !important;
+    transform:  translateY(20px) translateX(-20px) !important;
 }
 
 .testimonial-card:nth-child(3) {
-    transform: translateY(0px) !important;
+    transform: translateY(-30px) translateX(-40px) !important;
 }
 
 .testimonial-card:nth-child(3):hover {
-    transform: scale(1.08) translateY(-20px) !important;
+    transform:  translateY(-50px) translateX(-40px) !important;
 }
 
 .testimonial-card:nth-child(4) {
-    transform: translateY(40px) !important;
+    transform: translateY(20px) translateX(-60px) !important;
 }
 
 .testimonial-card:nth-child(4):hover {
-    transform: scale(1.08) translateY(20px) !important;
+    transform:  translateY(-10px) translateX(-60px) !important;
 }
 
 .testimonial-media {
@@ -849,7 +850,7 @@ body{
     position: absolute !important;
     top: 0 !important;
     left: 0 !important;
-    z-index: 3 !important;
+    z-index: 2 !important;
     transition: opacity 0.3s ease !important;
     opacity: 1 !important;
 }
@@ -862,7 +863,7 @@ body{
     position: absolute !important;
     top: 0 !important;
     left: 0 !important;
-    z-index: 2 !important;
+    z-index: 3 !important;
     opacity: 0 !important;
     transition: opacity 0.3s ease !important;
     pointer-events: none !important;
@@ -876,6 +877,7 @@ body{
 .video-card:hover .video-element {
     opacity: 1 !important;
     z-index: 3 !important;
+    pointer-events: auto !important;
 }
 
 .testimonial-overlay {
@@ -1017,7 +1019,46 @@ body{
      .currencySelect{
         font-size: 14px !important;
     }
-    
+    .sec5{
+        padding: 50px 30px !important;
+    }
+     .secHeader h2{
+        font-size: 32px !important;
+    }
+    .testimonials-container{
+        display: flex !important;
+        gap: 20px !important;
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+        -webkit-overflow-scrolling: touch !important;
+        scrollbar-width: none !important;
+        scroll-behavior: smooth !important;
+        -ms-overflow-style: none !important;
+    }
+    .testimonials-container::-webkit-scrollbar{
+        display: none !important;
+    }
+     .testimonial-card{
+        min-width: 280px !important;
+        transform: none !important;
+        transition: none !important;
+    }
+    .testimonial-card:nth-child(1),
+    .testimonial-card:nth-child(2),
+    .testimonial-card:nth-child(3),
+    .testimonial-card:nth-child(4){
+        transform: none !important;
+    }
+    .testimonial-card:hover {
+        transform: none !important;
+        box-shadow: none !important;
+    }
+    .testimonial-card:nth-child(1):hover,
+    .testimonial-card:nth-child(2):hover,
+    .testimonial-card:nth-child(3):hover,
+    .testimonial-card:nth-child(4):hover {
+        transform: none !important;
+    }
 
 
 
