@@ -1265,6 +1265,10 @@ body{
 
 
     /* ===============SIGNUP================= */
+    .sec1{
+        background-image: url(./media/bg-lines.svg) !important;
+    }
+
     .startInvest .formCon{
         width: 100%;
     }
