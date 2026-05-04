@@ -285,9 +285,10 @@ body{
 /* ========SEC1============= */
 .sec1{
     height: 78vh;
-    background-image:url(./media/bg-lines.svg);
+    background-image:url(./media/bgright.png), url(./media/bg-lines.svg), url(./media/bgleft.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:auto, cover, auto;
+    background-position: left bottom, center, right bottom;
 }
 .sec1 p{
     font-size: 20px;
